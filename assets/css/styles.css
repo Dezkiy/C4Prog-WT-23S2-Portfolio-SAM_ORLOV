@@ -16,3 +16,12 @@ main {
 footer {
     padding: 1rem;
 }
+
+/* #TODO implement hamburger menu*/
+nav {
+  display: none;
+}
+
+aside {
+  display: none;
+}
