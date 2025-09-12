@@ -30,7 +30,7 @@ aside {
 @media screen and (min-width: 1280px) {
   body {
       display: grid;
-      grid-template-rows: 120px 1fr 1fr;
+      grid-template-rows: 120px 1fr 1fr minmax(120px, auto);
   }
 
   header{
@@ -67,5 +67,20 @@ aside {
     max-width: 960px;
     margin: 0 auto;
     background-color: lightgoldenrodyellow;
+  }
+
+    footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+  }
+
+  footer li {
+    list-style: none;
+  }
+
+  footer li a {
+    text-decoration: none;
+    color: wheat;
   }
 }
