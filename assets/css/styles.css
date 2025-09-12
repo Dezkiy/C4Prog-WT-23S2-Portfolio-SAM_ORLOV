@@ -30,7 +30,7 @@ aside {
 @media screen and (min-width: 1280px) {
   body {
       display: grid;
-      grid-template-rows: 120px;
+      grid-template-rows: 120px 1fr;
   }
 
   header{
@@ -38,4 +38,27 @@ aside {
     justify-content: space-between;
     top: 0;
   }
+
+  nav {
+    display: flex;
+  }
+  .top-nav{
+      position: sticky;
+      top: 60px;
+      background-color: lightcyan;
+  }
+  .top-nav ul{
+      display: flex;
+      justify-content: space-around; 
+      margin: 0;
+  }
+  .top-nav li {
+      list-style: none;
+      padding: 1em;
+  }
+  .top-nav a {
+      text-decoration: none;
+  }
+  
+
 }
