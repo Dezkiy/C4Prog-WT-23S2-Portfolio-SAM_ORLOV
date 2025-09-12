@@ -30,7 +30,7 @@ aside {
 @media screen and (min-width: 1280px) {
   body {
       display: grid;
-      grid-template-rows: 120px 1fr 1fr minmax(120px, auto);
+      grid-template-rows: 120px minmax(1fr, 120px) 1fr minmax(120px, auto);
   }
 
   header{
