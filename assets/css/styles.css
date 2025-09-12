@@ -25,3 +25,17 @@ nav {
 aside {
   display: none;
 }
+
+/* Desktop layout */
+@media screen and (min-width: 1280px) {
+  body {
+      display: grid;
+      grid-template-rows: 120px;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+  }
+}
