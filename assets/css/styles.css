@@ -40,7 +40,7 @@ body {
 /* Desktop layout */
 @media screen and (min-width: 769px) {
   body {
-      grid-template-rows: 120px minmax(1fr, 120px) 1fr minmax(120px, auto);
+      grid-template-rows: 110px 50px 1fr minmax(120px, auto);
   }
 
   header{
@@ -56,7 +56,6 @@ body {
     position: sticky
   }
   .top-nav{
-      position: flex;
       top: 60px;
       background-color: lightcyan;
   }
