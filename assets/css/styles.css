@@ -1,35 +1,38 @@
 body {
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    margin: 0;
 }
 
-header {
-    padding: 1rem;
-}
+@media screen and (max-width: 768px) {
+  body {
+      grid-template-rows: auto 1fr auto;
+      margin: 0;
+  }
 
-main {
-    padding: 1rem;
-}
+  header {
+      padding: 1rem;
+  }
 
-footer {
-    padding: 1rem;
-}
+  main {
+      padding: 1rem;
+  }
 
-/* #TODO implement hamburger menu*/
-nav {
-  display: none;
-}
+  footer {
+      padding: 1rem;
+  }
 
-aside {
-  display: none;
+  /* #TODO implement hamburger menu*/
+  nav {
+      display: none;
+  }
+
+  aside {
+      display: none;
+  }
 }
 
 /* Desktop layout */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   body {
-      display: grid;
       grid-template-rows: 120px minmax(1fr, 120px) 1fr minmax(120px, auto);
   }
 
