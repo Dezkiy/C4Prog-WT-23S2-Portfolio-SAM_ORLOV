@@ -16,6 +16,12 @@ body {
       padding: 1rem;
   }
 
+  article {
+      padding: 1rem;
+      border: 2px solid black;
+      border-radius: 8px;
+  }
+  
   footer {
       padding: 1rem;
   }
