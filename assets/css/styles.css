@@ -15,6 +15,14 @@ body {
       justify-content: flex-start;
       gap: 20px;
   }
+  /* temp: Stub for hamburger menu in mobile layout */
+  header > :last-child {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 
   main {
       padding: 1rem;
@@ -53,6 +61,10 @@ body {
     top: 0;
     background-color: lightblue;
     gap: 20px;
+  }
+  /* temp: Stub for hamburger menu in mobile layout */
+  header > :last-child {
+    display: none;
   }
 
   nav {
